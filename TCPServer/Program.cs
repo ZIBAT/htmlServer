@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace httpserver
+namespace TCPServer
 {
-    public class HttpServer
+    class Program
     {
-        public static readonly int DefaultPort = 8888;
-
-        
+        static void Main(string[] args)
+        {
+        }
     }
 }
