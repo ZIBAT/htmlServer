@@ -10,8 +10,8 @@ namespace TCPServer
 {
     class TCPEcho
     {
-        {
-            TcpListener serverSocket = new TcpListener(65080);
+        
+            TcpListener serverSocket = new TcpListener(8888);
             serverSocket.Start();
 
             //Socket connectionSocket = serverSocket.AcceptSocket();
